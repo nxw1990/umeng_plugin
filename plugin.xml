@@ -5,7 +5,8 @@
         version="3.0.0">
     
     <name>Umeng</name>
-    
+    <preference name="APP_KEY" />
+    <preference name="CHANNEL" />
     <js-module src="www/Umeng.js" name="Umeng">
         <clobbers target="MobclickAgent" />
     </js-module>
